@@ -13,5 +13,7 @@ def aws_polly(textfile, outputfile):
 if __name__ == '__main__':
     import sys
     argv = sys.argv
+    print('AWS polly start: ', argv[1])
     aws_polly(argv[1], argv[2])
+    print('AWS polly finish: ', argv[1])
 

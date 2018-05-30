@@ -37,6 +37,8 @@ if __name__ == "__main__":
 #        speed=2.5
         lang='ja-JP'
         name='ja-JP-Standard-A' # only 
+    print('GCP Could TTS start: ', argv[1])
     synthesize_text(open(argv[1],'r').read(), lang, name, speed, argv[2])
+    print('GCP Could TTS finish: ', argv[1])
 
 

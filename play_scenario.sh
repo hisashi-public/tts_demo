@@ -44,6 +44,7 @@ while true; do
     sleep 0.1
 done
 sleep 0.1
+echo TTS process completed !!!!!
 wavfiles=""
 for f in $(cat mp3files_list.txt); do
     ffmpeg -i ${f} -ar 44100 ${f}.wav > /dev/null 2>&1

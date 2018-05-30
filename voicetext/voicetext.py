@@ -19,4 +19,6 @@ if __name__ == "__main__":
     argv = sys.argv
     speaker='hikari'
     speed=100
+    print('VoiceText start: ', argv[1])
     voicetext(argv[1], argv[2], speaker, speed)
+    print('VoiceText finish: ', argv[1])
